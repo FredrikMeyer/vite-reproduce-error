@@ -1,14 +1,12 @@
 import * as React from "react";
-import Container from "@material-ui/core/Container";
-import Typography from "@material-ui/core/Typography";
 
 import { RedocStandalone } from "redoc";
 import example from "./api.json";
 
 export default function ApiDocs(): JSX.Element {
   return (
-    <Container maxWidth={false} style={{ flexGrow: 1 }}>
-      <Typography variant="h2">API documentation</Typography>
+    <div>
+      <h2>api docs</h2>
 
       <RedocStandalone
         spec={example}
@@ -17,6 +15,6 @@ export default function ApiDocs(): JSX.Element {
           theme: { colors: { primary: { main: "#dd5522" } } },
         }}
       />
-    </Container>
+    </div>
   );
 }

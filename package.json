@@ -1,8 +1,5 @@
 {
     "dependencies": {
-        "@material-ui/core": "^4.12.3",
-        "@material-ui/icons": "^4.11.2",
-        "@material-ui/pickers": "^3.3.10",
         "@rollup/plugin-alias": "^3.1.5",
         "@rollup/plugin-commonjs": "^20.0.0",
         "@rollup/plugin-html": "^0.2.3",
@@ -69,6 +66,6 @@
     },
     "private": true,
     "version": "0.1.0",
-    "name": "reproduce error",
+    "name": "reproduce-error",
     "$schema": "https://json.schemastore.org/package.json"
 }
